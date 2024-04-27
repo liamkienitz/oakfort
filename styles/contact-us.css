@@ -1,10 +1,6 @@
 .our-team{
     padding-top: 110px;
-
     background-color: #efefef;
-}
-
-.our-team-title{
     text-align: center;
     color: #151515;
 }
@@ -16,6 +12,7 @@
 .our-team-container{
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 50px;
 }
 
 .person{
@@ -23,7 +20,7 @@
     color: #151515;
     text-align: center;
     padding: 20px;
-    width: 25%;
+    width: 300px;
     border-radius: 20px;
 
     justify-content: center;
@@ -46,12 +43,8 @@
     background-color: #2E3192;
 }
 
-.shipping-address img{
-    width: 100%;
-}
-
 .shipping-address-title{
-    padding: 20px;
+    padding: 30px;
     color: #efefef;
 }
 
@@ -60,6 +53,7 @@
     justify-content: center;
     padding-bottom: 20px;
 }
+
 .shipping-address-information{
     flex-direction: column;
     align-items: center;
@@ -67,20 +61,9 @@
     margin-top: 20px;
     padding: 20px;
     width: 500px;
+    
     background-color: #efefef;
     color: #151515;
     border-radius: 20px;
 
-}
-
-@media(max-width:800px){
-    .our-team-container{
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .person{
-        width: 80%;
-    }
 }
