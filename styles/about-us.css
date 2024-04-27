@@ -1,0 +1,40 @@
+body{
+  background-color: #efefef;
+}
+
+.about-us-header{
+    padding-top: 110px;
+    
+    background-image: linear-gradient(to bottom,rgb(46 49 146 / 50%),rgb(46 49 146 / 50%)), url("../images/Oak Fort/20240307_093424.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+    color: #efefef;
+  }
+
+  .about-us-header h1{
+    margin: 100px 0;
+  }
+
+  .who-we-are{
+    margin: 50px 50px;
+    gap: 100px;
+  }
+
+  .who-we-are-left img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .who-we-are-right p{
+    text-align: justify;
+  }
+
+  @media(max-width:859px){
+    .who-we-are{
+        flex-direction: column;
+        gap: 50px;
+    }
+}

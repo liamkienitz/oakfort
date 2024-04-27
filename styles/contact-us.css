@@ -1,0 +1,86 @@
+.our-team{
+    padding-top: 110px;
+
+    background-color: #efefef;
+}
+
+.our-team-title{
+    text-align: center;
+    color: #151515;
+}
+
+.our-team-title h1, .our-team-container{
+    padding: 30px 0;
+}
+
+.our-team-container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.person{
+    background-color: #e6e6e6;
+    color: #151515;
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+    border-radius: 20px;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+.person img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.number, .email{
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+.shipping-address{
+    background-color: #2E3192;
+}
+
+.shipping-address img{
+    width: 100%;
+}
+
+.shipping-address-title{
+    padding: 20px;
+    color: #efefef;
+}
+
+.shipping-address{
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.shipping-address-information{
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+    background-color: #efefef;
+    color: #151515;
+    border-radius: 20px;
+
+}
+
+@media(max-width:800px){
+    .our-team-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .person{
+        width: 80%;
+    }
+}
