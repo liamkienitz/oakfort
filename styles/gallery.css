@@ -25,6 +25,10 @@ img{
     border-radius: 10px;
 }
 
+a img{
+    object-fit: contain;
+}
+
 .projects{
     margin: 0 40px;
  }

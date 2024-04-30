@@ -36,7 +36,8 @@
 
 .number, .email{
     justify-content: space-between;
-    padding: 0 20%;
+    align-self: center;
+    width: 70%;
 }
 
 .shipping-address{
